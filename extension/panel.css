@@ -214,11 +214,7 @@ footer { margin-top: auto; padding: 10px 16px 14px; border-top: 1px solid var(--
 }
 :root[data-theme="dark"] .logo-on-light { display: none; }
 :root[data-theme="dark"] .logo-on-dark { display: block; }
-.promo-badge {
-  font-size: 11px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
-  color: var(--accent); background: var(--surface); border: 1px solid var(--line-strong);
-  border-radius: 999px; padding: 3px 9px 2px;
-}
+.promo-badge { margin-top: -2px; font-size: 12.5px; font-weight: 600; color: var(--accent); }
 .promo-title { font-size: 17px; font-weight: 800; line-height: 1.25; }
 .promo-cta {
   margin-top: 4px; display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 14px;

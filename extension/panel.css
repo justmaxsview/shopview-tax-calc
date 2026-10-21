@@ -189,6 +189,42 @@ footer { margin-top: auto; padding: 10px 16px 14px; border-top: 1px solid var(--
 .foot-upd { margin-top: 8px; color: var(--ink); }
 .foot-upd a { color: var(--accent); font-weight: 600; }
 
+/* ShopView free-tools card: fills the space between the lookup and the footer */
+.promo { margin-top: auto; padding: 8px 16px 16px; }
+.promo + footer { margin-top: 0; }
+.promo-card {
+  position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 8px;
+  padding: 18px 16px 16px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+  background: linear-gradient(160deg, var(--hover) 0%, var(--surface) 55%);
+  color: var(--ink); text-decoration: none;
+  transition: border-color 150ms ease, transform 150ms ease;
+}
+.promo-card::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 3px; background: var(--sign); }
+.promo-card:hover { border-color: var(--sign); transform: translateY(-1px); }
+.promo-card:focus-visible { border-radius: 10px; }
+.promo-logo { display: block; width: 134px; height: auto; }
+.logo-on-dark { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .logo-on-light { display: none; }
+  :root:not([data-theme="light"]) .logo-on-dark { display: block; }
+}
+:root[data-theme="dark"] .logo-on-light { display: none; }
+:root[data-theme="dark"] .logo-on-dark { display: block; }
+.promo-badge {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
+  color: var(--accent); background: var(--surface); border: 1px solid var(--line-strong);
+  border-radius: 999px; padding: 3px 9px 2px;
+}
+.promo-title { font-size: 17px; font-weight: 800; line-height: 1.25; }
+.promo-cta {
+  margin-top: 4px; display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 14px;
+  background: var(--sign); color: var(--on-sign); border-radius: 6px; font-weight: 700; font-size: 13px;
+}
+.promo-card:hover .promo-cta span { transform: translateX(2px); }
+.promo-cta span { transition: transform 150ms ease; }
+
 @media (prefers-reduced-motion: reduce) {
   .stack.grow { animation: none; }
+  .promo-card, .promo-cta span { transition: none; }
+  .promo-card:hover { transform: none; }
 }

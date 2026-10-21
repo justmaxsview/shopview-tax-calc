@@ -1,0 +1,6 @@
+dist/
+_Old Versions/
+*.zip
+node_modules/
+.DS_Store
+_private-docs/

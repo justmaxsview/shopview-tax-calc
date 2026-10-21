@@ -1,0 +1,381 @@
+{
+  "generatedAt": "2026-10-20T23:00:17.199Z",
+  "format": 1,
+  "states": {
+    "AK": {
+      "month": "202610",
+      "rows": 273,
+      "hash": "fdf97bef928325c2",
+      "file": "rates_AK.json",
+      "source": "TAXRATES_ZIP5_AK202610.csv"
+    },
+    "AL": {
+      "month": "202610",
+      "rows": 799,
+      "hash": "4b2c5a38350be9e7",
+      "file": "rates_AL.json",
+      "source": "TAXRATES_ZIP5_AL202610.csv"
+    },
+    "AR": {
+      "month": "202610",
+      "rows": 707,
+      "hash": "1f92bea07b6ed805",
+      "file": "rates_AR.json",
+      "source": "TAXRATES_ZIP5_AR202610.csv"
+    },
+    "AZ": {
+      "month": "202610",
+      "rows": 519,
+      "hash": "6e63b06d600a5586",
+      "file": "rates_AZ.json",
+      "source": "TAXRATES_ZIP5_AZ202610.csv"
+    },
+    "CA": {
+      "month": "202610",
+      "rows": 2570,
+      "hash": "e49f57ca4038429c",
+      "file": "rates_CA.json",
+      "source": "TAXRATES_ZIP5_CA202610.csv"
+    },
+    "CO": {
+      "month": "202610",
+      "rows": 639,
+      "hash": "56970ad22498d9a4",
+      "file": "rates_CO.json",
+      "source": "TAXRATES_ZIP5_CO202610.csv"
+    },
+    "CT": {
+      "month": "202610",
+      "rows": 421,
+      "hash": "5e6b70d5fea8ea6f",
+      "file": "rates_CT.json",
+      "source": "TAXRATES_ZIP5_CT202610.csv"
+    },
+    "DC": {
+      "month": "202610",
+      "rows": 290,
+      "hash": "aa6d695ff32c0571",
+      "file": "rates_DC.json",
+      "source": "TAXRATES_ZIP5_DC202610.csv"
+    },
+    "DE": {
+      "month": "202610",
+      "rows": 96,
+      "hash": "2452a1c3864ad94c",
+      "file": "rates_DE.json",
+      "source": "TAXRATES_ZIP5_DE202610.csv"
+    },
+    "FL": {
+      "month": "202610",
+      "rows": 1457,
+      "hash": "0ee3e3516779700f",
+      "file": "rates_FL.json",
+      "source": "TAXRATES_ZIP5_FL202610.csv"
+    },
+    "GA": {
+      "month": "202610",
+      "rows": 942,
+      "hash": "013a4d45d4b0ef9e",
+      "file": "rates_GA.json",
+      "source": "TAXRATES_ZIP5_GA202610.csv"
+    },
+    "HI": {
+      "month": "202610",
+      "rows": 136,
+      "hash": "82002646b8b80f47",
+      "file": "rates_HI.json",
+      "source": "TAXRATES_ZIP5_HI202610.csv"
+    },
+    "IA": {
+      "month": "202610",
+      "rows": 1055,
+      "hash": "e7c0f1ed3ab565cc",
+      "file": "rates_IA.json",
+      "source": "TAXRATES_ZIP5_IA202610.csv"
+    },
+    "ID": {
+      "month": "202610",
+      "rows": 320,
+      "hash": "9254da39303300f6",
+      "file": "rates_ID.json",
+      "source": "TAXRATES_ZIP5_ID202610.csv"
+    },
+    "IL": {
+      "month": "202610",
+      "rows": 1569,
+      "hash": "2008b02d7eed25c8",
+      "file": "rates_IL.json",
+      "source": "TAXRATES_ZIP5_IL202610.csv"
+    },
+    "IN": {
+      "month": "202610",
+      "rows": 958,
+      "hash": "ecfd86de005c3775",
+      "file": "rates_IN.json",
+      "source": "TAXRATES_ZIP5_IN202610.csv"
+    },
+    "KS": {
+      "month": "202610",
+      "rows": 753,
+      "hash": "20aa1ced62779233",
+      "file": "rates_KS.json",
+      "source": "TAXRATES_ZIP5_KS202610.csv"
+    },
+    "KY": {
+      "month": "202610",
+      "rows": 946,
+      "hash": "9c7b50202b14ba5c",
+      "file": "rates_KY.json",
+      "source": "TAXRATES_ZIP5_KY202610.csv"
+    },
+    "LA": {
+      "month": "202610",
+      "rows": 719,
+      "hash": "431de156fe35c53e",
+      "file": "rates_LA.json",
+      "source": "TAXRATES_ZIP5_LA202610.csv"
+    },
+    "MA": {
+      "month": "202610",
+      "rows": 679,
+      "hash": "c6ef5d67ac633fc3",
+      "file": "rates_MA.json",
+      "source": "TAXRATES_ZIP5_MA202610.csv"
+    },
+    "MD": {
+      "month": "202610",
+      "rows": 602,
+      "hash": "ed68fe4ec16ecf47",
+      "file": "rates_MD.json",
+      "source": "TAXRATES_ZIP5_MD202610.csv"
+    },
+    "ME": {
+      "month": "202610",
+      "rows": 484,
+      "hash": "88e943c8f19cb45e",
+      "file": "rates_ME.json",
+      "source": "TAXRATES_ZIP5_ME202610.csv"
+    },
+    "MI": {
+      "month": "202610",
+      "rows": 1160,
+      "hash": "1801ce44cdb9d5e9",
+      "file": "rates_MI.json",
+      "source": "TAXRATES_ZIP5_MI202610.csv"
+    },
+    "MN": {
+      "month": "202610",
+      "rows": 956,
+      "hash": "1e8d7b1302101837",
+      "file": "rates_MN.json",
+      "source": "TAXRATES_ZIP5_MN202610.csv"
+    },
+    "MO": {
+      "month": "202610",
+      "rows": 1155,
+      "hash": "a47917fb516ee68c",
+      "file": "rates_MO.json",
+      "source": "TAXRATES_ZIP5_MO202610.csv"
+    },
+    "MS": {
+      "month": "202610",
+      "rows": 516,
+      "hash": "9c2d982e3254e94b",
+      "file": "rates_MS.json",
+      "source": "TAXRATES_ZIP5_MS202610.csv"
+    },
+    "MT": {
+      "month": "202610",
+      "rows": 407,
+      "hash": "9d18866e53514901",
+      "file": "rates_MT.json",
+      "source": "TAXRATES_ZIP5_MT202610.csv"
+    },
+    "NC": {
+      "month": "202610",
+      "rows": 1080,
+      "hash": "1f683c73f48a1b1a",
+      "file": "rates_NC.json",
+      "source": "TAXRATES_ZIP5_NC202610.csv"
+    },
+    "ND": {
+      "month": "202610",
+      "rows": 419,
+      "hash": "a0f87b9d7c96abf9",
+      "file": "rates_ND.json",
+      "source": "TAXRATES_ZIP5_ND202610.csv"
+    },
+    "NE": {
+      "month": "202610",
+      "rows": 622,
+      "hash": "08167e4cfa9b3bc3",
+      "file": "rates_NE.json",
+      "source": "TAXRATES_ZIP5_NE202610.csv"
+    },
+    "NH": {
+      "month": "202610",
+      "rows": 281,
+      "hash": "cb40bc25e6d24ad5",
+      "file": "rates_NH.json",
+      "source": "TAXRATES_ZIP5_NH202610.csv"
+    },
+    "NJ": {
+      "month": "202610",
+      "rows": 721,
+      "hash": "3c636fd10a4c4dc5",
+      "file": "rates_NJ.json",
+      "source": "TAXRATES_ZIP5_NJ202610.csv"
+    },
+    "NM": {
+      "month": "202610",
+      "rows": 428,
+      "hash": "69a86315942aa4bd",
+      "file": "rates_NM.json",
+      "source": "TAXRATES_ZIP5_NM202610.csv"
+    },
+    "NV": {
+      "month": "202610",
+      "rows": 243,
+      "hash": "7099105bbe79b62b",
+      "file": "rates_NV.json",
+      "source": "TAXRATES_ZIP5_NV202610.csv"
+    },
+    "NY": {
+      "month": "202610",
+      "rows": 2143,
+      "hash": "558fcf980672f830",
+      "file": "rates_NY.json",
+      "source": "TAXRATES_ZIP5_NY202610.csv"
+    },
+    "OH": {
+      "month": "202610",
+      "rows": 1410,
+      "hash": "153aab6c28a977f1",
+      "file": "rates_OH.json",
+      "source": "TAXRATES_ZIP5_OH202610.csv"
+    },
+    "OK": {
+      "month": "202610",
+      "rows": 764,
+      "hash": "6a351c0ffc8aac35",
+      "file": "rates_OK.json",
+      "source": "TAXRATES_ZIP5_OK202610.csv"
+    },
+    "OR": {
+      "month": "202610",
+      "rows": 481,
+      "hash": "685d02f25211e428",
+      "file": "rates_OR.json",
+      "source": "TAXRATES_ZIP5_OR202610.csv"
+    },
+    "PA": {
+      "month": "202610",
+      "rows": 2161,
+      "hash": "0b35c473d93f4625",
+      "file": "rates_PA.json",
+      "source": "TAXRATES_ZIP5_PA202610.csv"
+    },
+    "PR": {
+      "month": "202610",
+      "rows": 174,
+      "hash": "da1c3e4edc6cbeeb",
+      "file": "rates_PR.json",
+      "source": "TAXRATES_ZIP5_PR202610.csv"
+    },
+    "RI": {
+      "month": "202610",
+      "rows": 90,
+      "hash": "f7d1bbd5d88a0ed4",
+      "file": "rates_RI.json",
+      "source": "TAXRATES_ZIP5_RI202610.csv"
+    },
+    "SC": {
+      "month": "202610",
+      "rows": 534,
+      "hash": "51bfc2e2d62789db",
+      "file": "rates_SC.json",
+      "source": "TAXRATES_ZIP5_SC202610.csv"
+    },
+    "SD": {
+      "month": "202610",
+      "rows": 406,
+      "hash": "e8868b00cd7eb8a6",
+      "file": "rates_SD.json",
+      "source": "TAXRATES_ZIP5_SD202610.csv"
+    },
+    "TN": {
+      "month": "202610",
+      "rows": 788,
+      "hash": "47860a43807d853c",
+      "file": "rates_TN.json",
+      "source": "TAXRATES_ZIP5_TN202610.csv"
+    },
+    "TX": {
+      "month": "202610",
+      "rows": 2598,
+      "hash": "047a65162099f811",
+      "file": "rates_TX.json",
+      "source": "TAXRATES_ZIP5_TX202610.csv"
+    },
+    "UT": {
+      "month": "202610",
+      "rows": 345,
+      "hash": "12bd055c54fea967",
+      "file": "rates_UT.json",
+      "source": "TAXRATES_ZIP5_UT202610.csv"
+    },
+    "VA": {
+      "month": "202610",
+      "rows": 1209,
+      "hash": "14ea660f06e7bf1c",
+      "file": "rates_VA.json",
+      "source": "TAXRATES_ZIP5_VA202610.csv"
+    },
+    "VT": {
+      "month": "202610",
+      "rows": 308,
+      "hash": "8cef97ce7a20a9f0",
+      "file": "rates_VT.json",
+      "source": "TAXRATES_ZIP5_VT202610.csv"
+    },
+    "WA": {
+      "month": "202610",
+      "rows": 715,
+      "hash": "8b232c91a2ffdb96",
+      "file": "rates_WA.json",
+      "source": "TAXRATES_ZIP5_WA202610.csv"
+    },
+    "WI": {
+      "month": "202610",
+      "rows": 877,
+      "hash": "b4cc49fae8a73316",
+      "file": "rates_WI.json",
+      "source": "TAXRATES_ZIP5_WI202610.csv"
+    },
+    "WV": {
+      "month": "202610",
+      "rows": 852,
+      "hash": "8c1c6c7dc9761f0a",
+      "file": "rates_WV.json",
+      "source": "TAXRATES_ZIP5_WV202610.csv"
+    },
+    "WY": {
+      "month": "202610",
+      "rows": 195,
+      "hash": "f2fff28ef4da236c",
+      "file": "rates_WY.json",
+      "source": "TAXRATES_ZIP5_WY202610.csv"
+    }
+  },
+  "index": {
+    "file": "index.json",
+    "hash": "ea38cd05a859035d"
+  },
+  "canada": {
+    "month": "202610",
+    "rows": 13,
+    "hash": "756f53c6f8ca2c2f",
+    "file": "canada.json",
+    "source": "CANADA_SALES_TAX_202610.csv"
+  }
+}

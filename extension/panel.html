@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tax rate lookup</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <main>
+    <header class="top">
+      <h1>Tax rate lookup</h1>
+      <div class="top-actions">
+        <div class="theme" role="group" aria-label="Color mode">
+          <button type="button" data-theme-pick="light" aria-pressed="false">Light</button>
+          <button type="button" data-theme-pick="dark" aria-pressed="false">Dark</button>
+        </div>
+        <button type="button" id="closeBtn" class="close-btn">Close</button>
+      </div>
+    </header>
+
+    <div class="form">
+      <div class="f">
+        <label for="country">Country</label>
+        <select id="country">
+          <option value="US">United States</option>
+          <option value="CA">Canada</option>
+        </select>
+      </div>
+      <div class="f" id="fQ">
+        <label for="q">ZIP code</label>
+        <input id="q" type="text" autocomplete="off" spellcheck="false" placeholder="30303 or a city"
+          role="combobox" aria-expanded="false" aria-controls="list" aria-autocomplete="list">
+      </div>
+      <div class="f">
+        <label for="st" id="stLabel">State</label>
+        <select id="st"></select>
+      </div>
+      <div class="f" id="fRg">
+        <label for="rg">Tax region</label>
+        <select id="rg" disabled></select>
+      </div>
+    </div>
+
+    <p id="listHead" class="list-head" hidden></p>
+    <ul id="list" role="listbox" aria-label="Matches" hidden></ul>
+
+    <p id="msg" class="msg" role="status" aria-live="polite"></p>
+
+    <section id="result" aria-live="polite" hidden>
+      <div class="sign">
+        <div class="sign-in">
+          <p class="sign-region" id="rRegion"></p>
+          <p class="sign-where" id="rWhere"></p>
+          <p class="sign-rate"><span id="rRate">0.00</span>%</p>
+        </div>
+      </div>
+      <div class="stack" id="stack" aria-hidden="true"></div>
+      <dl class="parts" id="parts"></dl>
+
+      <div class="risk" id="risk" hidden>
+        <span class="diamond" aria-hidden="true"></span>
+        <p>This ZIP crosses city or county lines, so the rate can differ by street address. Check the exact address before invoicing.</p>
+      </div>
+
+      <div class="amount">
+        <label for="amt">Amount</label>
+        <input id="amt" type="text" inputmode="decimal" autocomplete="off" placeholder="0.00">
+        <p id="amtOut" class="amt-out"></p>
+      </div>
+
+      <div class="actions">
+        <button type="button" id="copyRate">Copy rate</button>
+        <button type="button" id="copyAll">Copy breakdown</button>
+        <span id="copied" class="copied" role="status" aria-live="polite"></span>
+      </div>
+
+      <p class="note" id="rNote"></p>
+      <p class="note" id="rMonth"></p>
+    </section>
+
+    <section id="recent" hidden>
+      <h2>Recent</h2>
+      <ul id="recentList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-row">
+      <div class="foot-text">
+        <p id="fMonth"></p>
+        <p id="fSync"></p>
+      </div>
+      <button type="button" id="syncBtn">Sync now</button>
+    </div>
+    <p id="fWarn" class="foot-warn" hidden></p>
+    <p id="fErr" class="foot-err" hidden></p>
+    <p id="fUpd" class="foot-upd" hidden></p>
+  </footer>
+
+  <script src="panel.js"></script>
+</body>
+</html>
